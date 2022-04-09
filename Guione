@@ -1,0 +1,217 @@
+-- hazel
+
+local Theexploit = Instance.new("ScreenGui")
+
+local GUIopenframe = Instance.new("Frame")
+
+local GuiOpen = Instance.new("TextButton")
+
+local GUImain = Instance.new("Frame")
+
+local HatSpam = Instance.new("TextButton")
+
+local flingkill = Instance.new("TextButton")
+
+local Admin = Instance.new("TextButton")
+
+local fly = Instance.new("TextButton")
+
+local AnimationGui = Instance.new("TextButton")
+
+local Brickspam = Instance.new("TextButton")
+
+local ExitGUI = Instance.new("TextButton")
+
+local credits = Instance.new("TextLabel")
+
+local Title = Instance.new("TextLabel")
+
+local page2 = Instance.new("TextButton")
+
+local GUImain2 = Instance.new("Frame")
+
+local title2 = Instance.new("TextLabel")
+
+local btools = Instance.new("TextButton")
+
+local unlockWS = Instance.new("TextButton")
+
+local lowgravity = Instance.new("TextButton")
+
+local comingsoon = Instance.new("TextLabel")
+
+local ExitGUI2 = Instance.new("TextButton")
+
+--Properties:
+
+Theexploit.Name = "The exploit"
+
+Theexploit.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+GUIopenframe.Name = "GUI open frame"
+
+GUIopenframe.Parent = Theexploit
+
+GUIopenframe.BackgroundColor3 = Color3.new(0.0313726, 0, 1)
+
+GUIopenframe.Position = UDim2.new(0.0304878056, 0, 0.880596995, 0)
+
+GUIopenframe.Size = UDim2.new(0, 130, 0, 22)
+
+GuiOpen.Name = "Gui Open"
+
+GuiOpen.Parent = GUIopenframe
+
+GuiOpen.BackgroundColor3 = Color3.new(0.992157, 0.152941, 0.00392157)
+
+GuiOpen.BorderColor3 = Color3.new(0.0509804, 0, 0)
+
+GuiOpen.Size = UDim2.new(0, 138, 0, 21)
+
+GuiOpen.Font = Enum.Font.SciFi
+
+GuiOpen.Text = "Open"
+
+GuiOpen.TextColor3 = Color3.new(0, 0, 0)
+
+GuiOpen.TextSize = 14
+
+GuiOpen.MouseButton1Down:connect(function()
+
+GUImain.Visible = true
+
+GUIopenframe.Visible = false
+
+end)
+
+GUImain.Name = "GUI main"
+
+GUImain.Parent = Theexploit
+
+GUImain.BackgroundColor3 = Color3.new(0, 0, 1)
+
+GUImain.Position = UDim2.new(0.283536583, 0, 0.215351805, 0)
+
+GUImain.Size = UDim2.new(0, 222, 0, 277)
+
+GUImain.Visible = false
+
+Baby.Name = "Baby"
+
+Baby.Parent = GUImain
+
+Baby.BackgroundColor3 = Color3.new(1, 0, 0)
+
+Baby.Position = UDim2.new(0, 11, 0, 51)
+
+Baby.Size = UDim2.new(0, 200, 0, 23)
+
+Baby.Font = Enum.Font.SourceSans
+
+Baby.Text = "Hat Spam (patch) "
+
+Baby.TextColor3 = Color3.new(0, 0, 0)
+
+Baby.TextSize = 14
+
+Baby.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Adamscriptop/gui/main/Gui'))()
+
+Title.Name = "Title"
+
+Title.Parent = GUImain
+
+Title.BackgroundColor3 = Color3.new(0, 1, 0.498039
+
+Title.BorderColor3 = Color3.new(0, 0, 0)
+
+Title.Size = UDim2.new(0, 222, 0, 29)
+
+Title.Font = Enum.Font.SourceSans
+
+Title.Text = "UEETFHIXRU ISF CHAINS RJHV, FIFTH FRSKLHH VHFJRW"
+
+Title.TextColor3 = Color3.new(0, 0, 0)
+
+Title.TextSize = 18
+
+Title.TextWrapped = true
+
+credits.Name = "credits"
+
+credits.Parent = GUImain
+
+credits.BackgroundColor3 = Color3.new(0, 0, 1)
+
+credits.BorderColor3 = Color3.new(0, 0, 1)
+
+credits.Position = UDim2.new(0, 0, 0.902527094, 0)
+
+credits.Size = UDim2.new(0, 200, 0, 27)
+
+credits.Font = Enum.Font.SourceSans
+
+credits.Text = "GUI created by no one"
+
+credits.TextColor3 = Color3.new(1, 0, 0)
+
+credits.TextSize = 14
+
+ExitGUI.Name = "ExitGUI"
+
+ExitGUI.Parent = GUImain
+
+ExitGUI.BackgroundColor3 = Color3.new(1, 0, 0)
+
+ExitGUI.Position = UDim2.new(0, 201, 0, 0)
+
+ExitGUI.Size = UDim2.new(0, 21, 0, 19)
+
+ExitGUI.Font = Enum.Font.SourceSans
+
+ExitGUI.Text = "ðŸ‘‹"
+
+ExitGUI.TextColor3 = Color3.new(0, 0, 0)
+
+ExitGUI.TextSize = 14
+
+ExitGUI.MouseButton1Down:connect(function()
+
+GUImain.Visible = false
+
+GUIopenframe.Visible = true
+
+end)
+
+page2.Name = "page2"
+
+page2.Parent = GUImain
+
+page2.BackgroundColor3 = Color3.new(1, 0, 0)
+
+page2.Position = UDim2.new(0.851351202, 0, 0.902527094, 0)
+
+page2.Size = UDim2.new(0, 33, 0, 27)
+
+page2.Font = Enum.Font.SourceSans
+
+page2.Text = "dont click"
+
+page2.TextColor3 = Color3.new(0, 0, 0)
+
+page2.TextScaled = true
+
+page2.TextSize = 14
+
+page2.TextWrapped = true
+
+page2.MouseButton1Down:connect(function()
+
+GUImain2.Visible = true
+
+page2.Visible = false
+
+end)
+
+- Scripts:
